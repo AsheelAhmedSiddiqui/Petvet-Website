@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Roboto", sans-serif !important;
+}
+
+body button {
+  font-size: 1.5rem;
+}
+
+.link-active {
+  color: #fd4c82 !important;
+}
+
+.btn-pink {
+  background-color: #fd4c82 !important;
+  color: #fff !important;
+}
+
+.bg-pink {
+  background-color: #fd4c82;
+}
+
+/* header */
+.back-image {
+  background-image: url(img/bg_1.jpg.webp);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.mini {
+  font-size: 13px;
+  color: #fd4c82;
+}
+
+.hero-content h1 {
+  font-size: 3.75rem;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+.hero-content p {
+  font-size: 1.0625rem;
+  color: #999999;
+}
+
+.bg-green {
+  background-color: #91c235 !important;
+}
+
+/* About content */
+.about-content h4 {
+  font-size: 0.875rem;
+}
+
+.about-content p {
+  font-size: 1.0625rem;
+  color: #999999;
+}
+
+/* Appointment Section */
+.appointment h4 {
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+.appointment input,
+.appointment select,
+.appointment textarea {
+  height: 54px;
+  color: #999999 !important;
+}
+
+.appointment input::placeholder,
+.appointment select::placeholder,
+.appointment textarea::placeholder {
+  color: #999999;
+}
+
+.footer-bg-color {
+  background-color: #e0e0e0;
+}
