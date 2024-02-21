@@ -39,6 +39,20 @@ body button {
   height: 100vh;
 }
 
+.top-bar p {
+  font-size: 0.75rem;
+}
+
+.top-bar a {
+  font-weight: 900;
+}
+
+.icon-size {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+}
+
 .mini {
   font-size: 13px;
   color: #fd4c82;
