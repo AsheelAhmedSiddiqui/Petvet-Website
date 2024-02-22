@@ -31,6 +31,44 @@ body button {
   background-color: #fd4c82;
 }
 
+body a {
+  transition: all 0.4s !important;
+}
+
+body a:hover {
+  color: #fd4c82 !important;
+}
+
+body button {
+  transition: all 0.4s !important;
+}
+
+body button:hover {
+  border: 1px solid #fd4c82 !important;
+  background-color: transparent !important;
+  color: #000000 !important;
+  cursor: pointer !important;
+}
+
+.btn-green:hover {
+  border: 1px solid #91c235 !important;
+}
+
+/* Swiper Styling */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  background: #fff;
+}
+
+.swiper-slide img {
+  width: 80px;
+}
+
 /* header */
 .back-image {
   background-image: url(img/bg_1.jpg.webp);
@@ -73,6 +111,16 @@ body button {
   background-color: #91c235 !important;
 }
 
+.social-icon i {
+  transition: all 0.4s;
+}
+
+.social-icon i:hover {
+  color: #fff;
+  background-color: #fd4c82 !important;
+  cursor: pointer;
+}
+
 /* About content */
 .about-content h4 {
   font-size: 0.875rem;
@@ -102,6 +150,51 @@ body button {
   color: #999999;
 }
 
+/* Testimonials */
+.testimonials {
+  background-image: url(img/bg_3.jpg.webp);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.z-index {
+  z-index: 999 !important;
+}
+
+/* .testimonials .overlay {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.7;
+} */
+
+.testimonials .position {
+  padding: 5rem 0;
+}
+
+/* Footer Section */
+
 .footer-bg-color {
   background-color: #e0e0e0;
+}
+
+footer h5 {
+  position: relative;
+}
+
+footer h5:after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+  width: 30px;
+  height: 3px;
+  background: #fd4c82;
+}
+
+footer i {
+  font-weight: 900 !important;
 }
